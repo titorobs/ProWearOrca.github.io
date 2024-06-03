@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="master.css">
+    <title>Cool Centered Image</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(240deg, #ffffff, #00c6ff);
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .container img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .container img:hover {
+            transform: scale(1.05);
+        }
+
+        .container h1 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            color: white;
+            font-size: 18px;
+        }
+
+        .prev-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .prev-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>STI COLLEGE ORTIGAS-CAINTA</h1>
+        <p>TOURISM MANAGEMENT</p>
+        <img src="./img/TMBG.jpg" alt="Centered Image">
+    </div>
+    <a href="index.html" class="prev-button">Previous</a>
+</body>
+</html>
+
+
+
