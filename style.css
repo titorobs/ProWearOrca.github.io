@@ -276,3 +276,7 @@ nav {
 .dropdown:hover .dropbtn {
     background-color: #001e6b
 }
+
+@media only screen and (max-width: 600px) {
+  /* CSS styles specific to small screens */
+}
